@@ -1,4 +1,4 @@
-//import { createStackNavigator } from '@react-navigation/stack';
+// import { createStackNavigator } from '@react-navigation/stack';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as React from 'react';
 
@@ -11,8 +11,8 @@ import BottomTabNavigator from './BottomTabNavigator';
 
 // A root stack navigator is often used for displaying modals on top of all other content
 // Read more here: https://reactnavigation.org/docs/modal
-//const Stack = createStackNavigator();
-const Stack = createNatveStackNavigator();
+// const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 export default function RootNavigator() {
   return (
